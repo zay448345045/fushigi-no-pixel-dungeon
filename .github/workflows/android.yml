@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "master" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "1.4.2" ]
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     - name: set up JDK 
       uses: actions/setup-java@v4
       with:
-        java-version: '8'
+        java-version: '11'
         distribution: 'temurin'
         cache: gradle
 
