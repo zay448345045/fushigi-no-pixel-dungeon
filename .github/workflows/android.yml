@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "master" ]
   pull_request:
-    branches: [ "1.4.2" ]
+    branches: [ "1.4.1" ]
 
 jobs:
   build:
